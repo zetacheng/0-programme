@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this programme coordination repository, please cite it using this metadata."
+title: "0-programme: Theoretical Physics Research Programme Coordination Repository"
+type: software
+authors:
+  - family-names: Cheng
+    given-names: Zeta
+repository-code: "https://github.com/zetacheng/0-programme"
+date-released: 2026-07-15
+license: MIT
