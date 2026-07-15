@@ -1,0 +1,43 @@
+name: Cross-paper gate
+description: Propose or track a programme-level gate affecting multiple papers.
+title: "[Gate] "
+labels: ["cross-paper-gate"]
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Cross-paper question
+      description: State the falsifiable question without asserting an unverified result.
+    validations:
+      required: true
+  - type: textarea
+    id: upstream
+    attributes:
+      label: Upstream repositories and gates
+      description: Link owning repositories and detailed paper gate records.
+    validations:
+      required: true
+  - type: textarea
+    id: downstream
+    attributes:
+      label: Downstream consequences
+    validations:
+      required: true
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Locked assumptions
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Required evidence
+    validations:
+      required: true
+  - type: textarea
+    id: kill
+    attributes:
+      label: Kill criterion
+    validations:
+      required: true

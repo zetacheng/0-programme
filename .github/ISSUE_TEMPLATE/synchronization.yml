@@ -1,0 +1,36 @@
+name: Repository synchronization
+description: Track migration or synchronization from an owning paper repository.
+title: "[Sync] "
+labels: ["synchronization"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Paper repository
+      placeholder: zetacheng/N-paper-name
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Accepted source commit
+      description: Record the exact authoritative paper-repository commit.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Synchronization checklist
+      options:
+        - label: Paper source reviewed
+        - label: Progress imported
+        - label: Gate history imported
+        - label: Decision history imported
+        - label: Claim ledger compared with paper prose
+        - label: Conventions checked
+        - label: Cross-paper dependencies registered
+        - label: Latest accepted commit recorded
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Conflicts and unresolved items

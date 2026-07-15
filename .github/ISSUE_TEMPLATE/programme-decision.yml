@@ -1,0 +1,45 @@
+name: Programme decision
+description: Propose an append-only programme-level decision record.
+title: "[Decision] "
+labels: ["programme-decision"]
+body:
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link evidence in owning repositories; conversation history is not verification.
+    validations:
+      required: true
+  - type: input
+    id: papers
+    attributes:
+      label: Affected papers
+    validations:
+      required: true
+  - type: textarea
+    id: sync
+    attributes:
+      label: Required synchronization
+    validations:
+      required: true
+  - type: input
+    id: supersedes
+    attributes:
+      label: Supersedes
+      placeholder: None, or link the prior decision
+  - type: textarea
+    id: related
+    attributes:
+      label: Related gates and repositories
