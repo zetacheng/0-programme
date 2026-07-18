@@ -6,7 +6,7 @@
 
 ## Programme gate statuses
 
-`PROPOSED`, `SPECIFIED`, `RUNNING`, `PASS`, `FAIL`, `INCONCLUSIVE`, `SUSPENDED`, and `RETIRED` apply to programme gates.
+`PROPOSED`, `SPECIFIED`, `OPEN`, `RUNNING`, `PASS`, `FAIL`, `INCONCLUSIVE`, `SUSPENDED`, and `RETIRED` apply to programme gates.
 
 ## Global claim statuses
 
