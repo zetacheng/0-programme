@@ -48,6 +48,7 @@ REQUIRED_FILES = {
     "reviews/README.md",
     "reviews/programme/.gitkeep",
     "tests/README.md",
+    "tests/test_register_integrity.py",
     "tests/test_repository_structure.py",
 }
 
