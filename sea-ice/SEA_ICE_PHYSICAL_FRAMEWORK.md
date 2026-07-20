@@ -134,10 +134,12 @@ somewhat surprising result rather than the default.
   not deliver the proposed unification. (A dark-energy failure need not
   fail the galactic gate — the interface can exist while its stress-energy
   fails to account for `ρ_DE`.)
-- **C — Simplest framework terminates.** `P2-CHANNEL-FREEZE-01`+`P2-PHASE-01`
-  find no admissible phase, or `P2-MULTIPHASE-GRAV-01` finds every
-  admissible phase gravitationally pathological. Further work proceeds only
-  as a separately labeled extension (AE-4).
+- **C — Simplest framework terminates.** After `P2-CHANNEL-FREEZE-01` is
+  committed, either `P2-PHASE-01` finds no admissible stable phase, or
+  `P2-MULTIPHASE-GRAV-01` finds every admissible phase gravitationally
+  pathological. (The channel freeze is a registration step, not a test —
+  it cannot itself "find no phase.") Further work proceeds only as a
+  separately labeled extension (AE-4).
 
 ## Core testable hypothesis
 

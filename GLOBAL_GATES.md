@@ -56,8 +56,9 @@ here; the single source is `sea-ice/SEA_ICE_RESEARCH_MAP.md`.
 | SI-2 (programme-death) | `P2-MULTIPHASE-GRAV-01` (Paper 2) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
 | SI-3 | `P4-SEA-ICE-01` (Paper 4) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
 | SI-4 | `P4-INTERFACE-DE-01` (Paper 4) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
-| SI-5a | `P4-WRINKLE-BRIDGE-01` (Paper 4) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
-| SI-5b | `P4-BOUND-DM-01` (Paper 4) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
+| SI-5-exist | `P4-EQ-WRINKLE-01` (Paper 4) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
+| SI-5-id | `P4-WRINKLE-BRIDGE-01` (Paper 4, evidence-transfer, not a life gate) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
+| SI-5-spec | `P4-BOUND-DM-01` (Paper 4) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
 | SI-6 | `P1-SEAICE-RAR-01` (Paper 1) | see `sea-ice/SEA_ICE_RESEARCH_MAP.md` |
 
 The framework these gates test is described in
