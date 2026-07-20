@@ -15,7 +15,8 @@ of each repo (2026-07-19) and do not collide. Existing Paper 2 gates:
 `P2-HK-01`, `P2-GAP-01`, `P2-BETA-01`, `P2-BETAV-01`, `P2-NORM-01`,
 `P2-BETAV-CIRC-01`. New IDs (`P2-CHANNEL-FREEZE-01`, `P2-PHASE-01`,
 `P2-MULTIPHASE-GRAV-01`, `P4-SEA-ICE-01`, `P4-INTERFACE-DE-01`,
-`P4-WRINKLE-BRIDGE-01`, `P4-BOUND-DM-01`, `P1-SEAICE-RAR-01`) are clear.
+`P4-EQ-WRINKLE-01`, `P4-WRINKLE-BRIDGE-01`, `P4-BOUND-DM-01`,
+`P1-SEAICE-RAR-01`) are clear.
 **Before any of these is created in a paper repo, re-fetch that repo and
 re-confirm no collision** — this map is a proposal, not the authority on
 current IDs.
@@ -33,7 +34,9 @@ current IDs.
         → P1-SEAICE-RAR-01      (SI-6  derive RAR + a_0)
 
 **Resource warning — read before planning effort.** This is a near-linear
-chain of eight hard gates, most of them `∀`-type or derive-from-scratch.
+chain containing one mandatory freeze (`P2-CHANNEL-FREEZE-01`), eight hard
+scientific gates (most `∀`-type or derive-from-scratch), and one
+non-life-gate identity check (`P4-WRINKLE-BRIDGE-01`).
 Chain survival is a product of per-gate survival: the programme's life is
 decided, with high probability, at `P2-MULTIPHASE-GRAV-01` (the fourth
 gate). Everything downstream of SI-2 is conditional to the point of being
@@ -95,7 +98,7 @@ paper silently changes what this gate depends on. Specifically:
 ## Paper 3's role — constrained input, not a rescue branch
 
 Paper 3 enters SI-2 only as an interaction input to `K_ij(p)`, and enters
-SI-5b as bound-mode self-interaction / screening / decay. Its known
+SI-5-spec as bound-mode self-interaction / screening / decay. Its known
 negative result stands and is load-bearing: increasing the nominal vector
 coupling does **not** automatically strengthen anything, because the
 response saturates/screens (`D_00 = g_0/(1+g_0 Π_V) → 1/Π_V`). Paper 3 is a
@@ -144,8 +147,10 @@ headwind for SI-2, not a help (see the framework doc's honest prior).
 
 ## Integration record
 
-Integration date: **2026-07-20** (Sea–Ice review fixes applied and landed on
-the paper stub branches before this map merged).
+Integration preparation date: **2026-07-20**. The paper stub branches
+listed below were updated and pinned before the *proposed* merge of this
+map; at the time of writing none of the four branches is merged (Part D is
+held pending PI authorization). Tense will move to past on actual merge.
 
 Source SHAs of the paper stub branches this map points at (branch
 `sea-ice/gate-stubs` in each repo, pinned at integration time):
