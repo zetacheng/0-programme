@@ -22,10 +22,7 @@ authorized.
 
 ## Active branches (repo-qualified)
 
-**Programme-level (documentation):** none on origin yet;
-`0-programme` · `docs/programme-state-v1` will be created by the approved
-landing task (this file's own landing). Its entry is added here by that
-task's Task-4 update.
+**Programme-level (documentation):** `0-programme` · `docs/programme-state-v1` — pushed by the landing task; awaiting post-push review.
 
 **Research-level (Paper 2):** none on origin yet;
 `2-emergent-gravity` · `gate/p2-betav-campaign-prereg` will be created by
@@ -50,8 +47,7 @@ branches absent on origin.)
 
 - Prompt v5 (`CODEX_PROMPT_betav_campaign_prereg_v5.md`) — Discriminator
   ruling on the two open Arm-H decisions, then final verdict.
-- (Added by the landing task's Task-4 update: the pushed
-  `docs/programme-state-v1` branch awaiting post-push review.)
+- `0-programme` · `docs/programme-state-v1` — awaiting Discriminator + PI review on clean clones.
 
 ## Deferred / background
 
