@@ -4,6 +4,10 @@
 
 This repository contains no complete paper manuscript. Detailed derivations, scientific code, results, and paper text remain in the relevant paper repository. This repository records only programme-level coordination and accepted cross-paper status.
 
+## Start here
+
+Read [CURRENT_STATUS.md](CURRENT_STATUS.md) for the live handoff (2 min), then [docs/PROGRAMME_STATE.md](docs/PROGRAMME_STATE.md) for the canonical programme state and governance (10 min), then the paper repositories. `PROGRAMME_STATE.md` changes only through its §1.4 amendment chain; `CURRENT_STATUS.md` is updated by the executor as the final substantive step of each approved task, immediately before the report-only commit.
+
 ## Paper repositories
 
 1. [Paper 1 — Dark Matter Structure](https://github.com/zetacheng/1-dark-matter-structure)
