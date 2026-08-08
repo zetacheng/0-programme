@@ -64,6 +64,47 @@ None. The former closing sentence of `CROSS_PAPER_CONVENTIONS.md` is replaced wi
 
 `zetacheng/0-programme` (this registry); `zetacheng/2-emergent-gravity @ 51d4bbe1`; `zetacheng/3-vector-sector @ 8c363ef0`. No scientific gate is registered or closed.
 
+## 2026-08-08 — Adopt the function-based role model programme-wide
+
+### Decision
+
+`0-programme`'s role model is now function-based: roles are functions
+(Principal Investigator, Researcher, Reviewer, Executor), assignments are
+current rather than permanent, and the Researcher and Reviewer functions
+are exchanged by PI instruction to place the stronger available capability
+in the Reviewer function. `AGENTS.md`'s `## Role separation` section states
+the model; the former named-agent text (ChatGPT / Codex / Claude / PI) is
+preserved verbatim under a labelled historical subsection and is
+non-operative. `0-programme` states the model; paper repositories cite it.
+
+### Reason
+
+`0-programme`'s `AGENTS.md` had assigned roles to named agents, while
+Paper 2 adopted a function-based model on 2026-08-06; both were live and
+disagreed. With the cross-paper conventions registry now landed,
+`0-programme` holds authoritative programme content, so the divergence is
+resolved centrally rather than being met and stopped on by the next task.
+
+### Evidence
+
+Provenance: `zetacheng/2-emergent-gravity @ 51d4bbe1a2e965b0793b18f4ead5a11dab54c364 : AGENTS.md`, whose function-based model was verified clause by clause (roles-as-functions; Researcher/Reviewer exchange by PI instruction; Reviewer agreement required before an execution specification or integration authorization reaches the Executor; incidental implementation exchanges not separate review points; minor corrections bounded by the governing rules; a PI/Researcher instruction does not by itself expand the Executor's authorized scope; executors not interchangeable; the PI announces which executor is in use). No paper repository was modified; no paper file was copied into `0-programme`.
+
+### Affected papers
+
+None directly. This records a programme-level governance decision. Paper repositories cite the programme model; aligning any paper's own `AGENTS.md` is a separate task in that repository.
+
+### Required synchronization
+
+`reviews/README.md` records the prospective record-header requirement (the function under which each review is produced). The requirement is **prospective only**: existing `reviews/` records remain valid historical evidence and are **not** relabelled. No convention, gate, claim, or paper status changes; `MASTER_PROGRESS.md` is untouched.
+
+### Supersedes
+
+The former named-agent `## Role separation` text of `AGENTS.md`, which is retained verbatim as labelled historical evidence (non-operative). No prior decision-log entry is superseded.
+
+### Related gates and repositories
+
+`zetacheng/0-programme` (this decision); `zetacheng/2-emergent-gravity @ 51d4bbe1` (provenance). No scientific gate is registered or closed.
+
 ## Entry template
 
 ```markdown

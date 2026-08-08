@@ -10,6 +10,27 @@ When operating in an owning paper repository, first read that repository's `PROG
 
 ## Role separation
 
+**Roles are functions. Assignments are current, and change by PI instruction.**
+
+- **Principal Investigator** — decides. Owns the physical programme; approves assumptions, gates, conventions, scope changes and programme direction; accepts or rejects verdicts; authorizes paper updates. *Currently: Zeta Cheng.*
+- **Researcher** — builds the theory with the PI and supplies the background it needs; writes proposals; turns the PI's intent into verifiable specifications; revises against reviewer comment; and interprets executor results for the PI. *Currently: Claude (chat).*
+- **Reviewer** — reviews specifications and executor results, and raises questions. **Every execution specification or other normative task instruction that establishes or changes the Executor's authority, and every integration authorization, requires the Reviewer's agreement before being issued to the Executor** — except where the governing rules expressly provide a standardized authorization or permit a recorded correction without a new review cycle. **Incidental implementation exchanges within an already-reviewed authorization are not separate review points.** *Currently: ChatGPT.*
+- **Executor** — performs the work and is the only party that writes to a repository. *Currently: Codex and Claude Code, selected per task.*
+
+**The Researcher and Reviewer functions are exchanged from time to time, by PI instruction, with the intent of placing the stronger available capability in the Reviewer function.** An assignment recorded here is current, not permanent.
+
+**Minor corrections** may proceed without a further review cycle only to the extent the governing rules already authorize. They must be confined to executor-editable artifacts and must not alter reviewed meaning, objectives, claims, invariants, or frozen or hash-pinned content. **An instruction from the PI or the Researcher does not by itself expand the Executor's authorized scope.** Every such correction is recorded in the task report.
+
+**Executors are not interchangeable.** Codex runs on the PI's workstation, which has a GPU and no short process-termination limit: decisive runs and long campaigns belong there. Claude Code runs in a sandboxed container that reaches genuine exit 0 on validator suites the workstation currently cannot, but is ephemeral and starts from a stale tree each session: short deterministic verification, preparation and audit belong there. **The PI announces which executor is in use, and a specification whose acceptance criteria can only be met on one of them should say so.**
+
+This is the programme's role model. Paper repositories cite it rather than restating it; where a paper repository's own `AGENTS.md` and this model disagree, aligning that paper is a separate task in that repository.
+
+### Historical role assignment — superseded 2026-08-08
+
+The following text is preserved verbatim as historical evidence and is
+non-operative. It is superseded by the function-based model above. See
+`GLOBAL_DECISION_LOG.md`, entry dated 2026-08-08.
+
 - **ChatGPT:** conceptual discussion, ontology, physical interpretation, analytic derivation planning, gate and prompt design, calculation specifications, assumptions, competing interpretations, and cross-paper consistency analysis. ChatGPT does not certify numerical results.
 - **Codex:** programme-repository maintenance and synchronization reports, and repository maintenance, implementation, tests, regression anchors, reproducibility, result files, branches, and commits inside the relevant paper repository. Codex must not promote a result into a paper claim without review.
 - **Claude:** independent review and discrimination, derivation and result review, gate verdicts, overclaim detection, and paper updates only after acceptance.
